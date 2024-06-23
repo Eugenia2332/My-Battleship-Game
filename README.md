@@ -1,11 +1,11 @@
 This is a simple implementation of the classic Battleship game using HTML, CSS, and JavaScript. Players can guess the locations of hidden ships on a board and receive feedback on hits and misses. The objective is to sink all the opponent's ships.
 
-Features
+Features: 
 Interactive Gameplay: Users can input guesses and receive feedback on hits and misses.
 Random Ship Placement: Ships are randomly placed on the board at the start of each game.
 Win Condition: The game notifies the player when all ships have been sunk.
 
-Key Functions
+Key Functions are:
 View Object:
 displayMessage(msg): Displays a message to the user.
 displayHit(location): Marks a cell as a hit.
@@ -27,5 +27,4 @@ init(): Initializes the game on window load.
 handleFireButton(): Handles the "Fire!" button click event.
 handleKeyPress(e): Handles the Enter key press event.
 
-Contribution
 Contributions are welcome! If you have any ideas or improvements, feel free to fork the repository and submit a pull request.
